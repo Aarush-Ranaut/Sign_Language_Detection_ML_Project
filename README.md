@@ -8,18 +8,26 @@ This project bridges the communication gap between sign language users and non-u
 🎯 **Features**
 
 •🔍 Real-time hand gesture recognition via webcam
+
 •📐 21-point hand landmark detection using MediaPipe
+
 •🤖 Gesture classification using a trained Neural Network
+
 •📊 Dataset generated and stored in CSV format for training
+
 •📺 Live prediction display on screen
 
 
 🛠️ **Tech Stack**
 
 •MediaPipe – for real-time hand landmark detection
+
 •OpenCV – for webcam frame capture and processing
+
 •Python – core programming language
+
 •NumPy & Pandas – for data manipulation
+
 •TensorFlow/Keras – to build and train the neural network
 
 
