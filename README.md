@@ -1,8 +1,10 @@
 # 🖐️ Real-Time Sign Language Recognition using MediaPipe & Neural Networks
 📌 **Overview**
+
 This project bridges the communication gap between sign language users and non-users by recognizing hand gestures in real time using hand landmark detection and machine learning. Leveraging MediaPipe by Google and a trained Neural Network, the system identifies sign language gestures from webcam input and displays the recognized text on the screen — enabling a seamless, interactive communication experience.
 
 🎯 **Features**
+
 •🔍 Real-time hand gesture recognition via webcam
 •📐 21-point hand landmark detection using MediaPipe
 •🤖 Gesture classification using a trained Neural Network
@@ -10,13 +12,15 @@ This project bridges the communication gap between sign language users and non-u
 •📺 Live prediction display on screen
 
 🛠️ **Tech Stack**
+
 •MediaPipe – for real-time hand landmark detection
 •OpenCV – for webcam frame capture and processing
 •Python – core programming language
 •NumPy & Pandas – for data manipulation
 •TensorFlow/Keras – to build and train the neural network
 
-🧠 How It Works
+🧠 **How It Works**
+
 1)Landmark Detection
 MediaPipe extracts 21 hand landmarks per frame (x, y, z coordinates).
 
